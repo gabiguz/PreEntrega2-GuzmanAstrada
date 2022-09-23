@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: red;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 50%;
+    width: 100&;
+}
+.cara1{
+    position: fixed;
+    left: 0px;
+}
+.cara2{
+    position: fixed;
+    right: 0px;
+}
+.titulo{
+    width: 100%;
+}
+

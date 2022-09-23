@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: 0;
+    padding: 0;
+    background-color: #c3f9ea;
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+.titulo{
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    
+}
+.menu{
+    list-style: none;
+}
+.menu li{
+    display: inline-block; /*COLOCO LOS ELEMENTOS DE LA LISTA HORIZONTALES*/
+    text-decoration: none; /*QUITO SUBRAYADO */
+    padding: 10px;
+}
+body{
+    background-image: url(../image/fondo-abstracto-colores-pastel-suaves-sitio-web-gradiente-luz-postales-plantilla-creativa-arco-iris-banner-ilustracion-vectorial_620329-10.webp);
+    background-size: 15%;
+    height: 80%;
+}
+
+main{
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    padding: 2rem;
+    margin: 1rem auto
+    
+}
+p{
+    text-size-adjust: 45%;
+}
+.text{
+    float: left;
+    width: 50%;
+    text-align: center;
+    text-size-adjust: 85%;
+}
+footer{
+    background-color: beige;
+    height: 10%;
+    position: fixed;
+    bottom: 0px;
+
+
+}
